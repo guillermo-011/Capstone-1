@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: lightgreen;
+}
+
+#navbarimage{
+	height: 50px;
+	width: 50px;
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+
+.person	{
+	height: 50px;
+	width: 50px;
+}
