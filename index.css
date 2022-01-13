@@ -6,7 +6,9 @@
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	background-color: lightgreen;
+	background-image: url(images/background.jpg);
+	background-size: auto;
+
 }
 
 #navbarimage{
@@ -14,14 +16,31 @@ body{
 	width: 50px;
 }
 
-#nav-bar {
+.navbar {
 	position: sticky;
 	top: 0;
 	z-index: 10;
 
 }
 
-.person	{
-	height: 50px;
-	width: 50px;
+#person {
+	height: 500px;
+	width: 500px;
+}
+
+.banner {
+		background-image: url(images/hex.jpg);
+		background-size: cover;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #00113f;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
