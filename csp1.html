@@ -14,7 +14,7 @@
 <body>
 <!-- start of navbar -->
 <section class="nav-bar" id="Home">
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="./images/abc.jpg" class="img-fluid" id="navbarimage"> Capstone Project</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,16 +23,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active text-primary fw-bolder" aria-current="page" href="#Home">Home</a>
+          <a class="nav-link active text-info fw-bolder" aria-current="page" href="#Home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary fw-bolder" href="#Aboutme">About</a>
+          <a class="nav-link text-info fw-bolder" href="#Aboutme">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary fw-bolder" href="#Projects">Projects</a>
+          <a class="nav-link text-info fw-bolder" href="#Projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary fw-bolder" href="#">Contacts</a>
+          <a class="nav-link text-info fw-bolder" href="#Contacts">Contacts</a>
         </li>
       </ul>
     </div>
@@ -42,12 +42,12 @@
 <!-- end of navbar -->
 
 <!-- Home -->
-<section>
+<section class="py-5">
 	<div class="container-fluid" style="height: 88vh;">
-		<div class="row text-center d-flex justify-content-center banner">
+		<div class="row text-center d-flex justify-content-center banner mt-3">
 			<div class="col-sm-8"><img src="./images/web.png" class="rounded img-fluid" id="person"></div>
 		</div>
-		<div class="container text-center py-5">
+		<div class="jumbotron container text-center py-5">
 			<h1 class="text-secondary">	&quot; Hi. My name is Guillermo!</h1>
 			<h3 class="text-secondary">I'm an aspiring Full-stack Web Developer.	&quot;</h3>
 		</div>
@@ -59,65 +59,159 @@
 <section class="p-5" id="Aboutme">
 				<h1 class="text-center fw-bolder">About Me</h1>
 				<h3 class="text-center pb-2">&quot; If you are positive, you’ll see opportunities instead of obstacles. &quot;</h3>
-    <div  class="container-fluid text-center" style="height: 78vh;">
+    <div  class="container text-center">
         <div class="row pt-3">
-                <div class="col-12 col-md-6 order-sm-1 order-2 pt-5">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-12 col-md-6 pt-5 order-sm-2 order-lg-1">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <div class="col-12 col-md-6 order-sm-2 order-1">
-                    <img src="https://via.placeholder.com/300x300" class="img-fluid rounded"/>
-                </div>
-            </div>
-            <!-- Web API Ecommerce End -->
+                <div class="col-12 col-md-6 pt-5 order-sm-1 order-lg-2">
+                    <img src="https://via.placeholder.com/300x300" class="img-fluid rounded" />
+        		</div>
 
-            <!-- React Frontend Ecommerce Start -->
-            <div class="row pb-4">
-                <div class="col-12 col-md-6 order-2 pt-5">
-                    <h5>React Frontend (Ecommerce)</h5>
+                <div class="col-12 col-md-6 pt-5 order-sm-2 order-lg-2">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <div class="col-12 col-md-6 order-1">
+                <div class="col-12 col-md-6 pt-5 order-sm-1 order-lg-1">
                     <img src="https://via.placeholder.com/300x300" class="img-fluid rounded" />
-        </div>
+        		</div>
     </div>
+
 </section>
 <!-- End of About Me Sections -->
 
 <!-- Projects Section -->
-<section id="Projects">
-		<h1 class="text-center fw-bolder pb-5">My Projects</h1>
-	<div class="container-fluid text-white" style="height: 80vh;">
-		<div class="row justify-content-around">
-			<div class="card pt-3" style="width: 25rem;">
-			  <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
-			  <div class="card-body">
-			    <h5 class="card-title">Card title</h5>
-			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			    <a href="#" class="btn btn-primary">Go somewhere</a>
-			  </div>
-			</div>
-			<div class="card pt-3" style="width: 25rem;">
-			  <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
-			  <div class="card-body">
-			    <h5 class="card-title">Card title</h5>
-			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			    <a href="#" class="btn btn-primary">Go somewhere</a>
-			  </div>
-			</div>
-			<div class="card pt-3" style="width: 25rem;">
-			  <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
-			  <div class="card-body">
-			    <h5 class="card-title">Card title</h5>
-			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			    <a href="#" class="btn btn-primary">Go somewhere</a>
-			  </div>
-			</div>
-		</div>	
+<section>
+		<h1 class="text-center fw-bolder pb-5 pt-5"  id="Projects">My Projects</h1>
+	<div class="container-fluid text-white">
+		<div class="row d-flex justify-content-around pt-5 p-5">
+
+				<div class="card pt-3 mb-5" style="width: 25rem;">
+				  <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+
+				<div class="card pt-3 mb-5"  style="width: 25rem;">
+				  <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+
+				<div class="card pt-3 mb-5"  style="width: 25rem;">
+				  <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+
+		</div>
 	</div>
 
-</section>
 
+</section>
 <!-- End of Projects Section -->
+
+
+
+<!-- Contacts Section -->
+<section>
+		<h1 class="text-center fw-bolder pt-5" id="Contacts">Contact</h1>
+		<h4 class="text-center pb-2">Please feel free to reach me out through the form below.</h4>
+				<div class="container text-center mt-5 text-white">
+					<div class="row">
+			<div class="col-lg-6 col-sm-12">
+			<form class="bg-contact p-4 mb-3">
+			  <div class="form-group mb-3">
+			    <label for="name">Name</label>
+			    <input type="text" name="name" id="name" class="form-control">
+			  </div>
+			  <div class="form-group mb-3">
+			    <label for="text-email">Email address </label>
+			    <input type="email" name="email" id="text-email" class="form-control" placeholder="name@email.com">
+			  </div>
+			  <div class="form-group mb-3">
+				<label for="contactnumber" class="form-label">Contact Number</label>
+				<input type="tel" class="form-control" id="contactnumber">
+				</div>
+			  <div class="form-group mb-3">
+			    <label for="text-select">Offered Services </label>
+			    <select class="form-control" id="text-select" name="sampleServices">
+			    	<option>Front-End Development</option>
+			    	<option>Back-End Development</option>
+			    	<option>Full-Stack Development</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="text-area">Type your Message Here</label>
+			    <textarea  class="form-control  my-3" id="text-area" rows="3"></textarea>
+			  </div>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+						  Send Email
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body text-dark">
+						        Message Successfully Sent
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			  <button type="reset" class="btn btn-danger">Reset</button>
+			</form>
+			</div>
+						<div class="col-lg-6 col-sm-12">
+							<iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4100409869498!2d121.04148385082142!3d14.632650280162254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7afe6a39331%3A0xd367e6dc5e274032!2sCaswynn%20Building%2C%20134%20Timog%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%201103%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1641817736175!5m2!1sen!2sph"frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						</div>
+
+					</div>		
+				</div>
+	<div class="container">	<div class="row bg-transparent" style="height: 10vh;"></div> </div>	
+				</section>
+				<!-- Footer -->
+
+<!-- End of Footer -->
+<div class="container-fluid bg-footer" style="height: 6vh;">
+	<div class="row d-flex">
+		<div class="col">
+					<div class="col">hello</div>
+		</div>
+		<div class="col">
+					<div class="col">hello</div>
+		</div>
+
+
+		<div class="col d-flex justify-content-end align-items-center">
+			Follow me!
+			<div><a href="https://www.facebook.com/" target="_blank"><img src="./images/fblogo.png" id="fb" class="img-fluid"></a></div>
+			<div><a href="https://twitter.com/?lang=en" target="_blank"><img src="./images/twitterlogo.png"	id="twit" class="img-fluid"></a></div>
+			<div><a href="https://ph.linkedin.com/" target="_blank"><img src="./images/linkedinlogo.png" id="linkedin" class="img-fluid"></a></div>
+		</div>
+
+
+
+	</div>
+</div>
+<!-- End of Contacts Sections -->
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
